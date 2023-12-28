@@ -1,0 +1,6 @@
+framework module BHJSONValidator {
+  umbrella header "BHJSONValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}

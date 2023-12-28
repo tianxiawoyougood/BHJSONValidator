@@ -1,0 +1,6 @@
+framework module Pods_BHJSONValidator_Example {
+  umbrella header "Pods-BHJSONValidator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

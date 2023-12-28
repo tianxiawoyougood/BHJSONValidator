@@ -60,11 +60,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		95DA4EE7335495D44AC076B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		95DA4EE7335495D44AC076B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		99A575F0AB2480DD199A9056 /* Pods-BHJSONValidator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHJSONValidator_Example.debug.xcconfig"; path = "Target Support Files/Pods-BHJSONValidator_Example/Pods-BHJSONValidator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B3AC62C6DF85E2494423E3CE /* Pods_BHJSONValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BHJSONValidator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC51997099D507622DF0AACF /* BHJSONValidator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BHJSONValidator.podspec; path = ../BHJSONValidator.podspec; sourceTree = "<group>"; };
-		CB35F9A9E8866D927BBE0913 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BC51997099D507622DF0AACF /* BHJSONValidator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BHJSONValidator.podspec; path = ../BHJSONValidator.podspec; sourceTree = "<group>"; };
+		CB35F9A9E8866D927BBE0913 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D9073127DA144BD8D458FC01 /* Pods-BHJSONValidator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHJSONValidator_Example.release.xcconfig"; path = "Target Support Files/Pods-BHJSONValidator_Example/Pods-BHJSONValidator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E40EA5B012ED8809E7D16C8A /* Pods-BHJSONValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHJSONValidator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BHJSONValidator_Tests/Pods-BHJSONValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				E40EA5B012ED8809E7D16C8A /* Pods-BHJSONValidator_Tests.debug.xcconfig */,
 				2749764F0465265CE8BEB9E6 /* Pods-BHJSONValidator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = sunbinhua;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 2CT3DNUSV6;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 99A575F0AB2480DD199A9056 /* Pods-BHJSONValidator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CT3DNUSV6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BHJSONValidator/BHJSONValidator-Prefix.pch";
 				INFOPLIST_FILE = "BHJSONValidator/BHJSONValidator-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = D9073127DA144BD8D458FC01 /* Pods-BHJSONValidator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CT3DNUSV6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BHJSONValidator/BHJSONValidator-Prefix.pch";
 				INFOPLIST_FILE = "BHJSONValidator/BHJSONValidator-Info.plist";
