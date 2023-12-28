@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BHJSONValidator_Example' do
+  pod 'BHJSONValidator', :path => '../'
+
+  target 'BHJSONValidator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
